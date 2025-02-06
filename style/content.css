@@ -1,0 +1,13 @@
+[data-testid="ThreadContainer"] {
+	display: flex !important;
+	flex-flow: column-reverse !important;
+}
+
+[class^="Composercss__ComposerContainerUI"] {
+	max-height: 500px !important;
+	height: 500px !important;
+}
+
+[aria-label="User reply"]::after {
+	background: #645AFF !important;
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Fix Helpscout",
+    "description": "Chrome extension to improve helpscout",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "script/content.js"
+            ],
+            "matches": [
+                "https://secure.helpscout.net/*"
+            ],
+            "css": [
+                "style/content.css"
+            ]
+        }
+    ]
+}
